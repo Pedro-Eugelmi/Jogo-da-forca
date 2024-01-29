@@ -12,12 +12,12 @@ Verificar a Letra: A função verifyLetter() verifica se a letra pressionada est
 
 Modal de Resultado: O projeto inclui um modal que é exibido ao final do jogo, indicando se o jogador venceu ou perdeu. O modal mostra uma imagem correspondente e revela a palavra correta.
 
-##Como Jogar
+## Como Jogar
 Clique em qualquer letra para tentar adivinhar a palavra.
 Acerte a palavra antes de cometer 6 erros para vencer.
 Após o fim do jogo, um modal será exibido com o resultado.
 
-##Como Executar
+## Como Executar
 Baixe o repositório.
 Abra o arquivo index.html em um navegador web.
 Divirta-se jogando a Forca!
