@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Forca</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="imagex/x-icon" href="img/icon.png"></link>
+</head>
+<body>
+    <main>
+        <section class="forca">
+            <h1>----</h1>
+            <div class="forca-img">
+                <img src="img/img0.png" alt="">
+            </div>
+        </section>
+        <div class="guess-area">
+            <span>-------</span>
+            <div class="keyboard">
+                <div class="rows row1">
+                    <div class="notclicked">A</div>
+                    <div class="notclicked">B</div>
+                    <div class="notclicked">C</div>
+                    <div class="notclicked">D</div>
+                    <div class="notclicked">E</div>
+                    <div class="notclicked">F</div>
+                    <div class="notclicked">G</div>
+                    <div class="notclicked">H</div>
+                    <div class="notclicked">I</div>
+            
+                    <div class="notclicked">J</div>
+                    <div class="notclicked">K</div>
+                    <div class="notclicked">L</div>
+                    <div class="notclicked">M</div>
+                    <div class="notclicked">N</div>
+                    <div class="notclicked">O</div>
+                    <div class="notclicked">P</div>
+                    <div class="notclicked">Q</div>
+                    <div class="notclicked">R</div>
+          
+                    <div class="notclicked">S</div>
+                    <div class="notclicked">T</div>
+                    <div class="notclicked">U</div>
+                    <div class="notclicked">V</div>
+                    <div class="notclicked">W</div>
+                    <div class="notclicked">X</div>
+                    <div class="notclicked">Y</div>
+                    <div class="notclicked">Z</div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <button class="restart" onclick="reloadPage()"><i class='bx bx-reset'></i></button>
+
+    <dialog id="Modal">
+        <div onclick="closeModal()" class="close">
+            <i class='bx bx-x close-button'></i>
+        </div>
+        <div class="content">
+            <img src="">
+            <h1></h1>
+            <span></span>
+            <button onclick="reloadPage()">Recomeçar</button>
+        </div>
+        
+    </dialog>
+<script src="words.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
