@@ -1,9 +1,9 @@
 
-#Jogo da Forca em TypeScript
+# Jogo da Forca em TypeScript
 Este projeto é um jogo da forca desenvolvido para treinar as minhas habilidades em TypeScript. 
 jogo utiliza HTML, CSS e TypeScript para criar uma experiência interativa de adivinhação de palavras.
 
-##Funcionalidades Principais
+## Funcionalidades Principais
 Iniciar o Jogo: A função startGame() gera uma categoria aleatória e uma palavra correspondente, exibindo a categoria no HTML e criando os espaços para as letras da palavra.
 
 Gerar Categoria e Palavra: As funções generateCategory() e generateWord(category: string) são responsáveis por escolher aleatoriamente uma categoria e uma palavra dentro dessa categoria.
